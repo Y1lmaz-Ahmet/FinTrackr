@@ -19,3 +19,10 @@ body {
 	cursor: pointer;
 	color: #00df9a;
 }
+
+.footer-links {
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
