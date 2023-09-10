@@ -24,7 +24,6 @@ const Navbar = () => {
         {!openNav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
       </div>
       {/* <!-- MOBILE NAVIGATION --> */}
-
       <div
         className={
           openNav
