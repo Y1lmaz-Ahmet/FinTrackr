@@ -14,13 +14,13 @@ const Navbar = () => {
         FinTrackr.
       </h1>
       <ul className='hidden md:flex PT'>
-        <li className='p-4 hover:cursor-pointer'>Home</li>
-        <li className='p-4 hover:cursor-pointer'>Company</li>
-        <li className='p-4 hover:cursor-pointer'>Resources</li>
-        <li className='p-4 hover:cursor-pointer'>About</li>
-        <li className='p-4 hover:cursor-pointer'>Contact</li>
+        <li className='p-4 LINK-HOVER'>Home</li>
+        <li className='p-4 LINK-HOVER'>Company</li>
+        <li className='p-4 LINK-HOVER'>Resources</li>
+        <li className='p-4 LINK-HOVER'>About</li>
+        <li className='p-4 LINK-HOVER'>Contact</li>
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className='block md:hidden LINK-HOVER'>
         {!openNav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
       </div>
       {/* <!-- MOBILE NAVIGATION --> */}
@@ -36,19 +36,11 @@ const Navbar = () => {
           FinTrackr.
         </h1>
         <ul className='uppercase p-4 PT'>
-          <li className='p-4 border-b border-gray-600 hover:cursor-pointer'>
-            Home
-          </li>
-          <li className='p-4 border-b border-gray-600 hover:cursor-pointer'>
-            Company
-          </li>
-          <li className='p-4 border-b border-gray-600 hover:cursor-pointer'>
-            Resources
-          </li>
-          <li className='p-4 border-b border-gray-600 hover:cursor-pointer'>
-            About
-          </li>
-          <li className='p-4 hover:cursor-pointer'>Contact</li>
+          <li className='p-4 border-b border-gray-600 LINK-HOVER'>Home</li>
+          <li className='p-4 border-b border-gray-600 LINK-HOVER'>Company</li>
+          <li className='p-4 border-b border-gray-600 LINK-HOVER'>Resources</li>
+          <li className='p-4 border-b border-gray-600 LINK-HOVER'>About</li>
+          <li className='p-4 LINK-HOVER'>Contact</li>
         </ul>
       </div>
     </div>

@@ -14,3 +14,8 @@ body {
 .PT {
 	font-family: 'PT Sans', sans-serif;
 }
+
+.LINK-HOVER:hover {
+	cursor: pointer;
+	color: #00df9a;
+}
